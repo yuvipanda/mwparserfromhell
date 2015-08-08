@@ -1,0 +1,14 @@
+Source: mwparserfromhell
+Maintainer: Yuvi Panda <yuvipanda@riseup.net>
+Section: python
+Priority: optional
+Build-Depends: python3-setuptools, python3-all, debhelper (>= 9)
+Homepage: https://github.com/earwig/mwparserfromhell
+Standards-Version: 3.9.6
+
+Package: python3-mwparserfromhell
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends}
+Description: Outrageously powerful parser for MediaWiki wikicode
+ .
+ This is the Python 3 version.
