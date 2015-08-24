@@ -8,7 +8,7 @@ Standards-Version: 3.9.6
 
 Package: python3-mwparserfromhell
 Architecture: any
-Depends: ${misc:Depends}, ${python3:Depends}
+Depends: ${misc:Depends}, ${python3:Depends}, ${shlibs:Depends}
 Description: Outrageously powerful parser for MediaWiki wikicode
  .
  This is the Python 3 version.
