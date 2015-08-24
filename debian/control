@@ -7,7 +7,7 @@ Homepage: https://github.com/earwig/mwparserfromhell
 Standards-Version: 3.9.6
 
 Package: python3-mwparserfromhell
-Architecture: all
+Architecture: any
 Depends: ${misc:Depends}, ${python3:Depends}
 Description: Outrageously powerful parser for MediaWiki wikicode
  .
